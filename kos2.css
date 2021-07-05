@@ -1,0 +1,92 @@
+body{
+    background-color: darkcyan;
+}
+
+
+ul{
+    background-color: cornflowerblue;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    overflow: hidden;
+    color: black;
+
+
+}
+
+ul:hover{
+    background-color: black;
+}
+ul li{
+    display: inline-block;
+    padding: 10px;
+    margin: 15px;
+    
+    text-align: center;
+    font-size: 25px;
+    border: 1px solid black;
+}
+
+ul li a{
+   text-decoration: none;
+   color: white;
+  
+}
+ul li a:hover{
+    text-decoration: underline;
+    color: yellow;
+}
+.li-1:hover .div-1{
+    display: block;
+}
+
+.div-1{
+    display: none;
+    background-color: black;
+   
+    padding: 15px;
+    margin:10px;
+    position: absolute;
+   
+}
+.div-1 a{
+    display: block;
+    padding: 10px;
+    width: 150px;
+    border: crimson 1px solid;
+}
+
+
+.li-2:hover .div-2{
+    display:block;
+}
+
+.div-2{
+    background-color: darkblue;
+    color: black;
+    width: 150px;
+    display:none;
+    padding: 15px;
+    margin: 15px;
+    position: absolute;
+    border: 1px solid red;
+    border-radius: 10px;
+}
+.div-2 a{
+    color: red;
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid red;
+    border-radius: 10px solid red;
+    display: block;
+
+}
+.search{
+    padding: 15px;
+    margin:15px;
+    width: 500px;
+    border: 2px solid hotpink;
+    border-radius: 23px;
+    font-size: 18px;
+    text-align: center;
+}
